@@ -1,0 +1,164 @@
+*{
+	margin: 0; padding: o;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,2)), url(../images/pubg2.jpg);
+	background-size: 100% 100%;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+
+}
+.logo {
+	width: 25%; text-align: center; 
+	color: white;
+
+}
+.menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.menu a{
+	color: white; text-decoration: none;
+	font-weight: bold;
+}
+.menu a:first-child{
+	color: #00b894;
+}
+main{
+	width: 100%; height: 85vh;
+	display: flex;
+	justify-content: center; align-items: center;
+	color: white;
+	text-align: center;
+}
+section{
+	padding-top: 35px;
+
+}
+section h3{
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px black;
+}
+section h1{
+	margin: 20px 0 px 0;
+	font-size: 55px;
+	font-weight:700;
+	text-shadow:2px 1px 5px black;
+}
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+.button1{
+	background: #fff;
+	color: #000;
+	margin-right: 15px
+}
+.button1:hover{
+		background: #00b894;
+	color: white;
+
+}
+.button2{
+	background: #00b894;
+	color: white;
+}
+.button2:hover{
+	background: #fff;
+	color: #000;
+
+}
+.change_content:after {
+	content: '';
+	animation: changetext 15s infinite linear;
+	color: #00b894;
+
+}
+@keyframes changetext{
+	0%{ content: "M416" }
+	15%{ content: "AWM"; }
+	35%{ content: "KAR98"; }
+	55%{ content: "M762"; }
+	75%{ content: "DP"; }
+	100%{ content: "ROG"; }
+}
+section{
+
+}
+about{
+	background-image: url('pubg2.jpg')
+}
+section h2{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px black;
+	text-align: center;
+
+
+}
+section p {
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px orange;
+
+}
+section{
+
+}
+section h2{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px black;
+	text-align: center;
+
+
+}
+section p {
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px orange;
+
+}
+section h1 {
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px black;
+	text-align: center;
+
+
+}
